@@ -79,6 +79,7 @@ public class MainActivity extends AppCompatActivity {
     Handler mHandler = new Handler() {
         @Override
         public void handleMessage(Message msg) {
+
             super.handleMessage(msg);
             switch (msg.what) {
                 case 11:
